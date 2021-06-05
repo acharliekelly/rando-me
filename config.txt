@@ -1,0 +1,2 @@
+S3 Bucket: gyreandgimble.net
+S3 Endpoint: http://gyreandgimble.net.s3-website-us-east-1.amazonaws.com
