@@ -1,0 +1,23 @@
+{
+  "name": "rando-me",
+  "version": "1.0.0",
+  "description": "Random personal website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acharliekelly/rando-me.git"
+  },
+  "author": "acharliekelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acharliekelly/rando-me/issues"
+  },
+  "homepage": "https://github.com/acharliekelly/rando-me#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5"
+  }
+}
