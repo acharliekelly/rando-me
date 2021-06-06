@@ -1,0 +1,36 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Lora&family=Raleway:wght@200&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*
+Fonts: Roboto, Baloo Tammudu, Lora, Raleway, Ubuntu
+*/
+body { 
+  background-color: #212529; 
+  font-family: Roboto, sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  margin: 1em auto;
+  font-size: 2em;
+  font-weight: bold;
+}
+section {
+  margin: 0.5em 0;
+  border-radius: 1em;
+  padding: 1em 2em;
+}
+section header {
+  font-size: large;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.dark {
+  background-color: #212529;
+  color: white;
+}
+.light {
+  background-color: #f8f9fa;
+  color: black;
+}
+
