@@ -1,2 +1,12 @@
-S3 Bucket: gyreandgimble.net
-S3 Endpoint: http://gyreandgimble.net.s3-website-us-east-1.amazonaws.com
+S3
+ Bucket: gyreandgimble.xyz
+ Endpoint: http://gyreandgimble.xyz.s3-website-us-east-1.amazonaws.com
+
+Content:
+ Lorem: https://loripsum.net/api/#P
+ 
+ Hipsum: https://hipsum.co/api/?type=hipster-centric&paras=#P
+
+ CorporateIpsum: https://corporatelorem.kovah.de/api/#P
+
+ Dino Ipsum: http://dinoipsum.herokuapp.com/api/?format=text&paragraphs=#P
