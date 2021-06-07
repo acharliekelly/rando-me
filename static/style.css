@@ -1,36 +1,124 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Lora&family=Raleway:wght@200&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap'); */
+/**
+ * Update Fields:
+ * - FontFace
+ * - FontWeight
+ * - BackgroundImage
+ * - TitleColor
+ * - TextColor
+ * - TimerColor
+ */
+
+/* FontFace */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-/*
-Fonts: Roboto, Baloo Tammudu, Lora, Raleway, Ubuntu
-*/
+
 body { 
   background-color: #212529; 
+  /* FontFace */
   font-family: Roboto, sans-serif;
+  
+}
+
+.background {
+
+  display: block;
+  position: relative;
+  width: 60%;
+  margin: 5% 15%;
+  min-height: 500px;
+}
+.background::after {
+  content: "";
+  /* BackgroundImage */
+  background-image: url(https://res.cloudinary.com/cantimaginewhy/image/upload/c_scale,w_800/art/lake_mansfield.jpg);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+main {
+  
+  width: 40%;
+  margin: 0 30%;
+  text-align: center;
+  
+}
+
+footer {
+  
+  font-size: 1.2em;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-left: 1em;
+}
+footer .copyright {
+  /* TitleColor */
+  color:#f8f9fa;
+  margin-right: 2em;
+  margin-top: 3em;
 }
 
 .page-title {
   text-align: center;
-  margin: 1em auto;
+  margin: 2em auto;
   font-size: 2em;
   font-weight: bold;
+  /* TitleColor */
+  color: #f8f9fa;
 }
+
+
 section {
   margin: 0.5em 0;
   border-radius: 1em;
+  border: thin solid #444;
   padding: 1em 2em;
-}
-section header {
-  font-size: large;
-  text-align: center;
-  margin-bottom: 1em;
+  font-size: 1em;
+  /* FontWeight */
+  font-weight: 300;
+  text-align: left;
 }
 
-.dark {
-  background-color: #212529;
-  color: white;
+section a {
+  text-decoration: none;
+} 
+section a, section a:visited, section a:active {
+  color: #030;
 }
-.light {
-  background-color: #f8f9fa;
-  color: black;
+section a:hover {
+  color:darkblue;
 }
+
+.description {
+  background-color: beige;
+  /* TextColor */
+  color: #064;
+}
+
+.next-update {
+  background-color: #333;
+  color: #bbb;
+}
+.next-update .timer {
+  /* border: 2px inset #666; */
+  padding: 0.1em;
+  
+}
+
+.next-update .timer .clock {
+  /* padding: 0.2em; */
+  /* margin: 0.1em; */
+  /* border: thin solid white; */
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  /* TimerColor */
+  color: rgb(204, 173, 0);
+  font-weight: bold;
+}
+
 

@@ -3,29 +3,41 @@
 <head>
   <title>Random Website</title>
   <link rel="stylesheet" href="style.css">
+  <script src="../scripts/index.js"></script>
+  
 </head>
 <body>
+
+  <div class="background">
+    <header class="page-title">My Random Website</header>
   
-  <main class="dark">
-    <header class="page-title">Random Website</header>
-    <div class="sections">
-      <section>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    <main>
+      
+
+      <section class="description">
+        This website consists of static text and a randomized stylesheet. 
+        It is based on a project prompt from 
+        <a href="https://www.codementor.io/projects/web/personal-website-with-randomly-generated-design-atx32ht3j3" target="_blank">DevProjects</a>,
+        as imagined and implemented by <a href="https://acharliekelly.github.io" target="_blank">Charlie Kelly</a>.
       </section>
-      <section>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+      <section class="next-update">
+        <span class="update-label">Next design update in</span>
+        <span id="updateTimer" class="timer">
+          <span class="clock hours">0</span>:
+          <span class="clock minutes">30</span>:
+          <span class="clock seconds">00</span>
+        </span>
       </section>
-      <section>
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      </section>
-      <section>
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </section>
-      <footer>&nbsp;</footer>
-    </div>
+      
+    </main>
+    <footer>
+      <span class="copyright">&copy; 2021</span>
+    </footer>
+  </div>
+  <script>
+    setInterval(randomStyle, 30000)
     
-  </main>
-  <footer></footer>
-  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  </script>
 </body>
 </html>
